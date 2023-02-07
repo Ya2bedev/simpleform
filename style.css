@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+	background: linear-gradient(#12c2e9, #c471ed, #f64f59);
+	background-repeat: no-repeat;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Itim', cursive;
+}
+
+.form {
+	background-image: linear-gradient(to top right, #f64f59, #c471ed);
+	color: #fff;
+	display: inline-block;
+	padding: 2rem 1.5rem;
+	border-radius: 0.75rem;
+}
+
+.form-group > input {
+	margin: 5px 0px;
+	padding: 0.75rem;
+	border-radius: 0.5rem;
+	border: rgb(255, 255, 255) solid 3px;
+	outline: none;
+	transition: all 0.2s ease-in-out;
+	font-family: 'Itim', cursive;
+}
+
+.form-group > label {
+	display: block;
+}
+
+.form-group > input:focus {
+	border: #12c2e9 solid 3px;
+}
+
+.btn {
+	border: none;
+	padding: 0.75rem;
+	margin: 10px 0px;
+	border-radius: 10px;
+	cursor: pointer;
+	text-transform: capitalize;
+	font-family: 'Itim', cursive;
+}
+.checkbox {
+	margin: 0.5rem 0;
+}
+.btn-primary {
+	background-color: #f64f59;
+	box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.75);
+	color: antiquewhite;
+}
+
+.btn-primary:hover {
+	box-shadow: -1px 4px 4px 0px #c471ed;
+	color: #12c2e9;
+}
+
+.btn-danger {
+	background-color: #f64f59;
+	box-shadow: -1px 4px 4px 0px rgba(0, 0, 0, 0.75);
+
+	color: antiquewhite;
+}
+
+.btn-danger:hover {
+	box-shadow: -1px 4px 4px 0px #12c2e9;
+	color: #c471ed;
+}
